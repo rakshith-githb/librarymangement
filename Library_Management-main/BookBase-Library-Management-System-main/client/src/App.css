@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+    --customRed: #B82132;
+    --customPink: #D2665A;
+    --customPeach: #F2B28C;
+    --customLightPink: #F6DED8;
+  }
+  
+  .bg-customRed {
+    background-color: var(--customRed);
+  }
+  
+  .text-customRed {
+    color: var(--customRed);
+  }
+
+  .bg-customLightPink {
+    background-color: var(--customLightPink);
+  }
+  
+  .text-customLightPink {
+    color: var(--customLightPink);
+  }
+
+  .bg-customPeach {
+    background-color: var(--customPeach);
+  }
+  
+  .text-customPeach {
+    color: var(--customPeach);
+  }
+
+  .bg-customPink {
+    background-color: var(--customPink);
+  }
+  
+  .text-customPink {
+    color: var(--customPink);
+  }
+
+  .border-customRed {
+    border-color: var(--customRed);
+  }
+
+  .hover\:bg-customLightPink:hover {
+    background-color: var(--customLightPink);
+  }
